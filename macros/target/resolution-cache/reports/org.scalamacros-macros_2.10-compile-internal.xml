@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.scalamacros"
+		module="macros_2.10"
+		revision="1.0.0"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20150526053016"/>
+	<dependencies>
+		<module organisation="org.scala-lang.macro-paradise" name="scala-reflect">
+			<revision name="2.10.3-SNAPSHOT" status="integration" pubdate="20130715221002" resolver="sonatype-snapshots" artresolver="sonatype-snapshots" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.3-SNAPSHOT/" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html
+			"/>
+				<metadata-artifact status="successful" details="" size="1997" time="824" location="/home/zhivka/.ivy2/cache/org.scala-lang.macro-paradise/scala-reflect/ivy-2.10.3-SNAPSHOT.xml" searched="true" original-local-location="/home/zhivka/.ivy2/cache/org.scala-lang.macro-paradise/scala-reflect/ivy-2.10.3-SNAPSHOT.xml.original" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/macro-paradise/scala-reflect/2.10.3-SNAPSHOT/scala-reflect-2.10.3-20130715.200914-1.pom"/>
+				<caller organisation="org.scalamacros" name="macros_2.10" conf="optional, compile, provided, compile-internal" rev="2.10.3-SNAPSHOT" rev-constraint-default="2.10.3-SNAPSHOT" rev-constraint-dynamic="2.10.3-SNAPSHOT" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="successful" details="" size="3177228" time="12539" location="/home/zhivka/.ivy2/cache/org.scala-lang.macro-paradise/scala-reflect/jars/scala-reflect-2.10.3-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/macro-paradise/scala-reflect/2.10.3-SNAPSHOT/scala-reflect-2.10.3-20130715.200914-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.macro-paradise" name="scala-library">
+			<revision name="2.10.3-SNAPSHOT" status="integration" pubdate="20130715220924" resolver="sonatype-snapshots" artresolver="sonatype-snapshots" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.3-SNAPSHOT/" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html
+         "/>
+				<metadata-artifact status="successful" details="" size="2076" time="1323" location="/home/zhivka/.ivy2/cache/org.scala-lang.macro-paradise/scala-library/ivy-2.10.3-SNAPSHOT.xml" searched="true" original-local-location="/home/zhivka/.ivy2/cache/org.scala-lang.macro-paradise/scala-library/ivy-2.10.3-SNAPSHOT.xml.original" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/macro-paradise/scala-library/2.10.3-SNAPSHOT/scala-library-2.10.3-20130715.200914-1.pom"/>
+				<caller organisation="org.scala-lang.macro-paradise" name="scala-reflect" conf="default, compile, runtime, master" rev="2.10.3-SNAPSHOT" rev-constraint-default="2.10.3-SNAPSHOT" rev-constraint-dynamic="2.10.3-SNAPSHOT" callerrev="2.10.3-SNAPSHOT"/>
+				<caller organisation="org.scalamacros" name="macros_2.10" conf="optional, compile, provided, compile-internal" rev="2.10.3-SNAPSHOT" rev-constraint-default="2.10.3-SNAPSHOT" rev-constraint-dynamic="2.10.3-SNAPSHOT" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="successful" details="" size="7127537" time="24727" location="/home/zhivka/.ivy2/cache/org.scala-lang.macro-paradise/scala-library/jars/scala-library-2.10.3-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/macro-paradise/scala-library/2.10.3-SNAPSHOT/scala-library-2.10.3-20130715.200914-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
